@@ -5,8 +5,6 @@
 
 ## INSTALLATION
 
-There are 5 ways to install this plugin:
-
 - *Package Manager* > **add package from Git URL**:
   - `https://github.com/supersolid/com.supersolid.share.git`
 

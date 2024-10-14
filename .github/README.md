@@ -1,7 +1,7 @@
 # Unity Native Share Plugin
 
 > [!IMPORTANT]
-> This repository is a fork from an asset no longer maintained! While using this package, expect issues when sharing a file/image/video with a text (see FAQ).
+> This repository is a fork from an asset no longer maintained! While using this package, expect issues when sharing a file/image/video with a text (see FAQ). Find the base repository in: https://github.com/yasirkula/UnityNativeShare
 
 ## INSTALLATION
 

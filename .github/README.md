@@ -1,34 +1,14 @@
 # Unity Native Share Plugin
 
-## NOTICE: This asset is no longer maintained! Consider using alternative sharing solutions that are actively being maintained. While using this package, expect issues when sharing a file/image/video with a text (see FAQ).
-
-**Available on Asset Store:** https://assetstore.unity.com/packages/tools/integration/native-share-for-android-ios-112731
-
-**Forum Thread:** https://forum.unity.com/threads/native-share-for-android-ios-open-source.519865/
-
-**Discord:** https://discord.gg/UJJt549AaV
-
-**[Support the Developer ☕](https://yasirkula.itch.io/unity3d)**
-
-This plugin helps you natively share files (images, videos, documents, etc.) and/or plain text on Android & iOS. A **ContentProvider** is used to share the media on Android. 
+> [!IMPORTANT]
+> This repository is a fork from an asset no longer maintained! While using this package, expect issues when sharing a file/image/video with a text (see FAQ).
 
 ## INSTALLATION
 
 There are 5 ways to install this plugin:
 
-- import [NativeShare.unitypackage](https://github.com/yasirkula/UnityNativeShare/releases) via *Assets-Import Package*
-- clone/[download](https://github.com/yasirkula/UnityNativeShare/archive/master.zip) this repository and move the *Plugins* folder to your Unity project's *Assets* folder
-- import it from [Asset Store](https://assetstore.unity.com/packages/tools/integration/native-share-for-android-ios-112731)
-- *(via Package Manager)* add the following line to *Packages/manifest.json*:
-  - `"com.yasirkula.nativeshare": "https://github.com/yasirkula/UnityNativeShare.git",`
-- *(via [OpenUPM](https://openupm.com))* after installing [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:
-  - `openupm add com.yasirkula.nativeshare`
-
-### Android Setup
-
-NativeShare no longer requires any manual setup on Android. If you were using an older version of the plugin, you need to remove NativeShare's `<provider ... />` from your *AndroidManifest.xml*.
-
-For reference, the legacy documentation is available at: https://github.com/yasirkula/UnityNativeShare/wiki/Manual-Setup-for-Android
+- *Package Manager* > **add package from Git URL**:
+  - `https://github.com/supersolid/com.supersolid.share.git`
 
 ### iOS Setup
 
